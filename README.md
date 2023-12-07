@@ -163,7 +163,7 @@ Second part of Airbnb: Joann Vuong
 ## License
 Public Domain. No copy write protection. 
 
-Airbnb_clone_v4 part
+0x06. AirBnB clone - Web dynamic
 
 Learning Objectives
 -------------------
