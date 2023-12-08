@@ -40,9 +40,8 @@ $(document).ready(function () {
       }
     }
   });
-});
 
-  function updatePlaces() {
+  function updatePlaces () {
     $.ajax({
       url: 'http://0.0.0.0:5001/api/v1/places_search/',
       type: 'POST',
@@ -50,7 +49,7 @@ $(document).ready(function () {
       data: JSON.stringify({}),
       dataType: 'json',
       success: function (data) {
-        $('.places').empty();  // Clear existing places
+        $('.places').empty(); // Clear existing places
 
         // Loop through the result and create article tags
         data.forEach(function (place) {
